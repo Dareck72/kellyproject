@@ -110,7 +110,6 @@ class _MyappState extends State<Myapp> with SingleTickerProviderStateMixin {
       "assets/images/5.jpg",
       "assets/images/6.jpg",
       "assets/images/7.jpg",
-      "assets/images/8.jpg",
     ];
     return Scaffold(
       backgroundColor: Colors.black,
@@ -184,8 +183,8 @@ class _MyappState extends State<Myapp> with SingleTickerProviderStateMixin {
             // Section "My work as an Architectural Assistant"
             Container(
               padding: EdgeInsets.only(
-                left: 30,
-                right: 30,
+                left: 15,
+                right: 15,
                 top: 10,
                 bottom: 10,
               ),
