@@ -103,14 +103,14 @@ class _MyappState extends State<Myapp> with SingleTickerProviderStateMixin {
 
   Widget build(BuildContext context) {
     List<String> carouselImage = [
-      "images/top.jpg",
-      "images/2.jpg",
-      "images/3.jpg",
-      "images/4.jpg",
-      "images/5.jpg",
-      "images/6.jpg",
-      "images/7.jpg",
-      "images/4.jpg",
+      "assets/images/top.jpg",
+      "assets/images/2.jpg",
+      "assets/images/3.jpg",
+      "assets/images/4.jpg",
+      "assets/images/5.jpg",
+      "assets/images/6.jpg",
+      "assets/images/7.jpg",
+      "assets/images/8.jpg",
     ];
     return Scaffold(
       backgroundColor: Colors.black,
